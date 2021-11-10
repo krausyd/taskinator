@@ -6,19 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Taskinator</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 <header>
   <h1 class="page-title">Taskinator</h1>
   <p>Click the button below to create a new task!</p>
-  <button class="btn">Add task</button>
+  <button class="btn" id="save-task">Add task</button>
 </header>
 <main class="page-content">
   <section class="task-list-wrapper">
     <h2 class="list-title">Tasks to do</h2>
-    <ul class="task-list">
+    <ul class="task-list" id="tasks-to-do">
       <li class="task-item">A task is going to be added soon!</li>
     </ul>
   </section>
@@ -27,7 +27,7 @@
   &copy;2020 by Taskinator
 </footer>
 
-<script src="./assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 
 </html>
